@@ -26,3 +26,11 @@ elif eredeti < 0:
     print("negativ")
 else:
     print("nulla")
+
+#felhasznalotol bekeres
+
+szoveg = input("Adj meg egy szamot: ")
+print("A megadott szam: " + szoveg)
+
+#HF a PDF-bol:
+# 8-tol 13-ig feladatokat megoldani
