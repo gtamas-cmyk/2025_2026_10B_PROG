@@ -1,5 +1,5 @@
-import math
-import random
+import math #math ban levo fuggvenyeket hasznaljuk
+import random #random ban levo fuggvenyeket meghivjuk, hasznaljuk
 
 a = 2
 gyoka = math.sqrt(a)
