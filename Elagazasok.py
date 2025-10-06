@@ -4,3 +4,4 @@ if szam % 2 == 0:
     print("A szám páros")
 else:
     print("A szám páratlan")
+#hf pdf 8-13-ig, orai anyagokat megnezni
