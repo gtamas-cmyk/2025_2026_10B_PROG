@@ -54,3 +54,5 @@ ora = sec // 3600
 perc = (sec - ora * 3600) // 60
 masodperc = sec % 60  
 print(str(ora) + " ora " + str(perc) + " perc " + str(masodperc) + " masodperc")
+
+#POTOLNIIIII A HF-T
