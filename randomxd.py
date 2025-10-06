@@ -34,3 +34,23 @@ print("A megadott szam: " + szoveg)
 
 #HF a PDF-bol:
 # 8-tol 13-ig feladatokat megoldani
+
+
+
+#Szekvencia - utasitasok sorozata
+#szelekcio - elagazas
+#iteracio - ciklus, ismetles
+
+#python compiler mobile
+#python compiler online
+
+#hf megoldasok
+
+sec = 3923
+# 1 ora 5 perc 23 masodperc
+# 1*3600 + *5300 + 23 = 3923 sec
+
+ora = sec // 3600
+perc = (sec - ora * 3600) // 60
+masodperc = sec % 60  
+print(str(ora) + " ora " + str(perc) + " perc " + str(masodperc) + " masodperc")
