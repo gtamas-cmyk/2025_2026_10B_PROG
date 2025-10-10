@@ -23,3 +23,4 @@ if a + b > c and a + c > b and b + c > a:
 else:
     print("A háromszög nem megszerkeszthető")
 
+#hf python ciklusok, loops, iteraciok, booleanok, ...
