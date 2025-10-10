@@ -52,10 +52,10 @@ else:
 #bool algebra (HF)
 
 # A | B | A and B | A or B
-# T | T |    T    |   T
-# T | F |    F    |   T
-# F | T |    F    |   T
-# F | F |    F    |   F
+# T | T |    T    |   T   
+# T | F |    F    |   T   
+# F | T |    F    |   T   
+# F | F |    F    |   F   
 
 #hf kerjen be a felhasznalotol 3 db szamot lehet tort is. ez a harom szam egy haromszog harom oldala
 #1 derekszogu e a  haromszog?
