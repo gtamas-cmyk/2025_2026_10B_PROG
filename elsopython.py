@@ -54,3 +54,7 @@ print("**")
 print("***")
 print("****")
 print("*****")
+
+# Div egeszresz, mod modulus (maradek)
+#div - //
+#mod - %
