@@ -1,3 +1,6 @@
+import random as r
+
+
 """
 Ciklusok - ismetles -loop
 
@@ -45,7 +48,7 @@ print()
 for  index in range(0, len(szoveg)-1, 1):
     print (szoveg[index]+",",end="")
 #print(szoveg[len(szoveg)-1])
-print(szoveg[-1])
+    print(szoveg[-1])
 print()
 
 # 10-tol 1 ig visszafele a szamokat
@@ -61,6 +64,19 @@ print()
 
 
 # irass a ki a szoveget az helyevel tarsitvalvelvalavele (1k 2a 3l 4a 5p 6a 7c 8s ) eredeti szo kalapacs
+szoveg = "kalapacs"
+n = len(szoveg)
+index = "kalapacs"
 
-ak1 = "kalapacs"
-for hely in range(len(ak1)):
+for index in range(0, n, 1):
+    print(str(index+1)+szoveg[index], end=" ")
+
+print()
+
+# irasson ki 5db veletlen karaktert a szovegbol
+for db in range(0,5,1):
+    szam = r.randint(0,n-1)
+    print(szoveg[szam],end=" ")
+print()
+
+#hf 17-21
