@@ -54,3 +54,4 @@ print(str(aEgesz)+szSzam)
 
 print(szSzam+str(aEgesz))
 print(aEgesz+int(szSzam))
+print()
