@@ -1,0 +1,103 @@
+1. Adottak a téglalap alapélei. Írassa ki az oldalakat és a kerületet, területet!
+2. Legyen megadva a kör sugara alapértéknek. Számolja ki a kör átmérőjét, kerületét, területet!
+3. Legyen megadva a háromszög három oldala. Számolja ki a háromszög kerületét, területét 
+(héron képlettel)!
+4. Legyen megadva egy szabályos háromszög oldala. Írassa ki a megadott háromszö 
+magasságát.
+5. Legyen megadva egy kockának az egyik éle. Írassa ki a lap átló és a test átló hosszát!
+6. Kérd be külön a vezetéknevet és a keresztnevet, majd összefűzve írasd ki!
+7. Kérjen be egy egész számot! Páros-e a szám? (Oszthatóság vizsgálata: % százék, mint 
+művelet)
+8. Segítsd az osztályfőnök munkáját a bizonyítvány íráshoz! Ha az érdemjegy 1,2,3,4,5 - írassa ki 
+szövegesen: 1-elégtelen, 2-elégséges, 3-közepes, 4-jó, 5-jeles. Felhasználó adja meg az 
+érdemjegyet!
+9. Megvan adva a víz hőfoka. Írassa ki, a hőfok alapján hogy szilárd, folyékony, gáz 
+halmazállapotú!
+10. Háromszög egyenlőtlenség. Adva van három oldal hossza. Adja meg, hogy szerkeszthető-e a 
+háromszög! HE - akkor szerkeszthető egy háromszög, ha bármely két oldal összege, nagyobb 
+a harmadiknál.
+11. Adott a hőmérséklet farenheitben. Számolja át cfokba!
+12. Adott a hőmérséklet cfokban. Számolja át farenheitbe!
+13. Kérjen be a felhasználótól egy időtávot másodpercben. Számolja át órára, percre, 
+másodpercre!
+14. Írasd ki egy bekért szó utolsó karakterét
+15. Írassa ki, hogy az adott szó első és utolsó karaktere egyezik-e?
+16. Írassuk ki egy bekért szöveg minden második betűjét!
+17. Írasd ki visszafele egy bekért szót!
+18. írasd ki 3szor egymás mellé a megfordított szót!
+19. Kérj be a felhasználótól egy szöveget, majd írasd ki a szöveg minden második karakterét 
+visszafele!
+20. Kérj be a felhasználótól egy szöveget, majd írasd ki a szöveget szóközök nélkül!
+21. Nézd meg, hogy egy adott szó palindrom-e! (visszafele olvasva is ugyan az. pl. pap, alóla, 
+keretkarakterek)
+22. Adott egy szöveg. Szóközteleníts! Nézd meg, hogy palindrom-e! "géza kék az ég"
+23. Adott egy szöveg. Mondd meg, hogy hány szóból áll?
+24. Adott a szöveg. Mond meg, hogy van-e benne vessző!
+25. Adott egy szöveg! Van-e a szövegben sz betű!
+26. Írass ki 10 darab véletlen számot, egymás mellé!
+27. Generálj ki 10 db véletlen számot és írasd ki a végén a számok átlagát!
+28. Addig generálj kétjegyű számokat, amig 7tel oszthatót nem kapsz!
+29. Generálj ki 10 db véletlen számot és add meg hány darab páros szám van!
+30. Töltse fel a tömböt 13 db [-10,10] közötti véletlen számmal!
+31. Felhasználótól kérjen be egy számot, ami megadja, hogy darab elemű tömböt hozzon létre! 
+Töltse fel ezt a tömböt a felhasználó áltla megadott intervallummal! (Nézze meg, hogy melyik 
+szám a nagyobb és úgy generálja a véletlen számot)
+32. A számok legnagyobb értékét határozd meg
+33. Hányadik elem a legnagyobb?
+honapok = 
+["Január","Február","Március","Április","Május","Június","Július","Augusztus","Szeptember","Októbe
+r","November","December"]
+34. Generálj ki 12 darab véletlen számot [0,20] között, ami azt mutatja, hogy hány darab autót 
+adott el egy kereskedés, az adott hónapban. Add meg melyik hónapban adták el a legtöbb 
+autót!
+35. Volt olyan hónap, amikor nem adott el autót a kereskedés? Ha igen, melyik hónap volt az?
+36. Szimuláld egy 6 oldalú kocka dobását, majd készíts egy statisztikát! Generálj 100 db 
+kockadobást!
+a. Add meg, melyik számból hányat dobtak!
+b. Add meg hány olyan szám van, amelyik darabszáma kevesebb a dobott értékeke 
+átlagánál!
+c. Hatékonyabb megoldáson is gondolkozz!
+A következő feladatokat függvénnyel oldja meg!
+37. Adjon össze két értéket, ami a felhasználótól bekér! A függvény paraméterében bekért két 
+értéket adja össze!
+38. Készítse el a következő függvényeket:
+a. függvény, ami függ egy szövegtől és eredményként visszaadja szöveget szóköz nélkül!
+b. függvény, ami függ egy szótól és eredményként visszadja megfordítva!
+c. függvény, ami függ egy üres tömbtől és egy értéktől, és feltölti a tömböt [10,100] 
+közötti véletlen számmal!
+39. Adott egy szöveg, kódolja Ceasar kódolással! Minden karaktert csúsztasson el annyi 
+karakterrel, amit a felhasználó megad! A függvény függjön a szótól és az eltolás értékétől!
+40. Tömbfeltöltés - 13 elem, [500,6000]. Ezek az értékek egy hegygerincen mért tengerszint 
+feletti magasságok.
+a. Mekkora a legmagasabb csúcs
+b. Csúcsnak hívják, azt a mért éréket, ami 1000 méter feletti és nagyobb a szomszédos 
+mért értékektől. Adja meg, hogy van-e ilyen csúcs!
+c. Fennsíknak hívjuk azokat a részeket, ahol két egymás utáni érték +-50-nel tér el. Vane fennsík a mért értékeke között?
+d. Hány alkalommal beszélhetünk emelkedőről. Emelkedő, amikor a következő mért 
+érték nagyobb, de csak egyszer vizsgáljuk. pl 123 124 125 122 121 123 129 128 134 -
+3 db emelkedés
+41. adatok3= "Kis Pista-Csillagok csillagok-3:12"
+a. Az előadott szám címe
+b. Az előadó keresztneve
+c. Add meg szövegesen hány perc és másodperc 3 perc 12 másodperc
+42. Legyenek a következő adatok beégetve! {"Peti", 12, kg, alma, Karcsi, 23, kg, körte, Csilla, 40, l,
+tej, Kati, 15, kg, kukorica}
+a. Ki adta el a legtöbb terméket a piacon? Abból, Ki, mit, hány egységet?
+b. Határozzátok meg azoknak a termékeknek az átlagát, amelyek súlyban (kg-ban) 
+értendők!
+c. Van-e olyan eladó, aki szilvát/körtét adott el? Ha van, kicsoda?
+43. Teljes név bekérése
+a. fv azonosító generálása (visszadja az azonosítót)
+b. fv jelszó generálása (visszadja a jelszót)
+44. Adott egy nevekkel feltöltött tömb. Peti,Karcsi,Csilla,Lázár,Bori,Kati,Sándor. Írd meg a 
+következő függvényeket:
+a. legyen egy szöveges és egy üres tömb paramétere a fv-nek. Darabold fel a szöveget 
+vessző alapján tedd bele a tömbbe úgy, hogy mindegyik név mellé generálsz egy 3 
+jegyű 10-re kerekített számot! pl. Peti, 120, Karcsi, 670, ...
+b. készíts egy fv-t, aminek a paraméterében megadsz egy nevet és visszaadja a hozzá 
+tartozó szám értéket ha van. Ha nincs adjon vissza -1-et.
+c. Fv-el add meg kinek a rokona lakik a legmesszebb!
+45. Írj függvényt, ami eldönti egy bekért számról, hogy prím-e!
+46. Tölts fel egy tömböt 13 darab [2,23] közötti véletlen számmal majd írj függvényt,
+a. ami megadja, hány darab prím van!
+b. ami megadja a nem prímek átlagát!

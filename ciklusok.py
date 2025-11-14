@@ -1,6 +1,3 @@
-import random as r
-
-
 """
 Ciklusok - ismetles -loop
 
@@ -57,9 +54,8 @@ for tizegy in range(10, 0, -1):
 print()
 
 szovg = "kalapacs"
-n = len(szoveg)
 
-for indx in range(len(szovg)-1, -n-1, -1):
+for indx in range(len(szovg)-1, -1, -1):
     print(szovg[indx],end=" ")
 print()
 
@@ -71,24 +67,10 @@ index = "kalapacs"
 
 for index in range(0, n, 1):
     print(str(index+1)+szoveg[index], end=" ")
-print()
+
+
 
 # irasson ki 5db veletlen karaktert a szovegbol
-for db in range(0,5,1):
-    szam = r.randint(0,n-1)
-    print(szoveg[szam],end=" ")
-print()
-print()
-print()
-print()
-print()
-print()
-print()
-print()
 
-
-print(ujra)
-
-#hf 17-21
-
-#en mar itt elvesztem
+for index in range(0, n, 1)
+print(str)
