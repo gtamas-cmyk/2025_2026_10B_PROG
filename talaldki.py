@@ -1,5 +1,5 @@
 import random as r
-
+#mesterremekem frfr
 szam = r.randint(10,99)
 print("Gondoltam egy ketjegyu szamra")
 user = 0
