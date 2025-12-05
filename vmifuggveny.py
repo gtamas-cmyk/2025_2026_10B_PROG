@@ -1,8 +1,25 @@
-user = str(input("Adjon meg egy szoveget: "))
+szoveg = "Géza kék az ég"
+
+db = 0
+
+for karakter in szoveg:
+    if(karakter == " "):
+        db += 1
+
+print(db, "db szóköz van a szövegben")
+
+sz = input("Adjon meg egy szöveget: ")
 index = 0
-while (index < len(user)-1 and not (user[index] != "c") and (user[index+1] != "s")):
+while(index<len(sz)-1 and not (sz[index] == "c" and sz[index+1] =="s")):
     index += 1
-if (index < len(user)-1):
-    print("van benne cs")
+
+print(index)
+if(index <len(sz)-1):
+    print("Van benne cs")
 else:
     print("nincs benne cs")
+
+
+
+
+#de morgan azonossag
