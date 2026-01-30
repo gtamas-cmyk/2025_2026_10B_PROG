@@ -88,4 +88,8 @@ def listagen(db):
     for i in range(0, db, 1):
         lista.append(random.randint(-10,50))
     return(lista)
-lista
+
+
+lista = listagen(32)
+print(lista)
+print(lista.count)
