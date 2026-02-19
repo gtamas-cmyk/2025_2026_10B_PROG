@@ -48,4 +48,15 @@ def main():
     nev = tor3[1].split(" ")
     print(nev[0], datum[0])
 
-main()
+    #hf rendszamot egybe
+    #ABC123, Kis Pista, KJ-567654345678987, 1992_03_10
+    #rendszam utolso 3 szama
+    #keresztnev
+    #honap
+
+    #"Nagy bela:2026_02_19 - 12:13:20"
+    #nap
+    #ora
+    #keresztnev
+    
+    main()
